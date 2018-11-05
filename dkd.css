@@ -1,0 +1,80 @@
+
+body {
+    font-family: Roboto;
+    background-color: #1abc9c;
+
+    line-height: 1.8;
+    color: #1abc9c;
+}
+p {font-size: 16px;
+color: white;
+    font-family: Roboto;
+}
+
+.margin {margin-bottom: 45px;}
+.bg-1 {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+.bg-2 {
+    background-color: #474e5d;
+    color: #ffffff;
+}
+.bg-3 {
+    background-color: #ffffff;
+    color: #555555;
+}
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=6ff88ac902&attid=0.1&permmsgid=msg-f:1615379542686405576&th=166afb22ab4193c8&view=att&disp=safe");
+}
+.navbar-nav  li a:hover {
+    color: white !important;
+}
+#exalty{
+
+background-color: #555555;
+
+}
+
+a{
+    color: white;
+}
+#container3{
+    background-color: #1abc9c;
+}
+.carousel-inner{
+
+    background-position: center;
+
+}
+span{
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+
+
+}
+h3{
+    font-family: Roboto;
+    color: white;
+
+}
+#myNavbar{
+    background-color: #1abc9c;
+    color: white;
+}
