@@ -1,0 +1,48 @@
+h1{
+text-align: center;
+border: solid black;
+
+}
+button{
+    border: solid black;
+    border-style: solid double;
+background-color: gray;
+}
+body{
+    font-family:Arial Black;
+background-color: blanchedalmond;
+
+
+}
+#send{
+    margin-top: 4%;
+    margin-left: 5%;
+
+}
+#mot_mystere{
+
+    text-align: center;
+
+
+}
+#answer{
+    margin-left: 45%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+#boutonreset{
+    margin-left: 47%;
+    margin-top: 4%;
+
+
+}
+#indication{
+    margin-left: 45%;
+
+
+}
+@keyframes boutonreset {
+0%{rotation:200deg}
+100%{rotation: 180deg}
+
+}
