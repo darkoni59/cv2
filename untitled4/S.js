@@ -53,6 +53,11 @@ document.getElementById('send').addEventListener("click",
                 sons.src="https://www.memoclic.com/medias/sons-wav/2/727.mp3";
                 sons.autoplay="false";
                 sons.play();
+                var myImg2 = new Image();
+
+                myImg2.src = 'https://media.giphy.com/media/l0z9St3VBChag/giphy.gif';
+
+                document.body.appendChild(myImg2);
             }
 
             if (vie==0){
@@ -62,8 +67,16 @@ document.getElementById('send').addEventListener("click",
                 sons2.src="http://s1download-universal-soundbank.com/mp3/sounds/7901.mp3";
                 sons2.autoplay="false";
                 sons2.play();
+
+                var myImg = new Image();
+
+                myImg.src = 'https://i.skyrock.net/0608/66540608/pics/3279230922_1_11_TOLrjlNc.gif';
+
+                document.body.appendChild(myImg);
                 alert('lol trop nul');
+
             }
+
             else {
 
                 document.getElementById("ici").innerHTML="il te reste"+" "+ vie+"life";

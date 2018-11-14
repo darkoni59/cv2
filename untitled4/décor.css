@@ -10,7 +10,7 @@ background-color: gray;
 }
 body{
     font-family:Arial Black;
-background-color: blanchedalmond;
+background-image: url("https://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
 
 
 }
@@ -39,10 +39,5 @@ background-color: blanchedalmond;
 #indication{
     margin-left: 45%;
 
-
-}
-@keyframes boutonreset {
-0%{rotation:200deg}
-100%{rotation: 180deg}
 
 }
