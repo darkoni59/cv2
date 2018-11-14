@@ -48,15 +48,21 @@ document.getElementById('send').addEventListener("click",
             if (random.length===win) {
 
                 document.getElementById('win').innerHTML='gg bolosse';
-
-
+                var sons=document.createElement("audio");
+                document.body.appendChild(sons);
+                sons.src="https://www.memoclic.com/medias/sons-wav/2/727.mp3";
+                sons.autoplay="false";
+                sons.play();
             }
 
             if (vie==0){
+
+                var sons2=document.createElement("audio");
+                document.body.appendChild(sons2);
+                sons2.src="http://s1download-universal-soundbank.com/mp3/sounds/7901.mp3";
+                sons2.autoplay="false";
+                sons2.play();
                 alert('lol trop nul');
-
-
-
             }
             else {
 
